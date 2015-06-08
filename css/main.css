@@ -1,0 +1,1204 @@
+/* ============================================================
+Main Content - Home
+============================================================= */
+.pageBG.homePage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#contentHome {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 75%;
+}
+
+.homeTitle {
+    margin-top: 7%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+#contentHome img {
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+}
+
+.contactFront {
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 0.5vw;
+    line-height:0.9vw;
+}
+
+.home {color: #000;}
+
+/* ============================================================
+Main Content - contentContainer
+============================================================= */
+.contentContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================================================
+Main Content - Architecture
+============================================================= */
+.pageBG.arch {
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.7)
+    ),
+
+    url("../img/photog/amsterdam/cantelever.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contentArchitecture {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.projects {
+    position: relative;
+    top: 19.5%;
+    left: 12%;
+    color: #FFF;
+    font-size: 0.9vw;
+}
+
+.projects li a {
+    line-height: 1.5vw;
+    color: #FFF;
+    width: auto;
+}
+
+.projects a:hover {
+    background-color: #CB3535;
+    cursor: none;
+    font-size: 1vw;
+    padding: 5px 10px 5px 10px;
+}
+
+.contentContainer.archGrid {
+    position: absolute;
+    top: 12%;
+    left: 25.8%;
+    width: 50%;
+    height: 49%;
+}
+
+.contentContainer.archGrid .box {
+    margin: 3%;
+    width: 18%;
+    height: 35%;
+    box-shadow: 0 10px 6px -6px black;
+}
+
+.contentContainer.archScroll {
+    position: absolute;
+    opacity: 0.1;
+    top: 12%;
+    width: 55%;
+    height: 105%;
+    left: 18%;
+    overflow: auto;
+    z-index: 99;
+}
+
+.contentContainer.archScroll .box2 {
+    display: inline-block;
+    box-shadow: 0 10px 6px -6px black;
+    margin-right: 2.5%;
+    width: 93vh;
+    height: 60.4vh;
+}
+
+.contentContainer.archScroll .box2:hover {
+    cursor: pointer;
+    box-shadow: 2px 8px 8px 2px #000;
+}
+
+.projectDescription {
+    display: none;
+    opacity: 0.1;
+    position: absolute;
+    top: 2%;
+    right: 1.5%;
+    width: 22%;
+}
+
+.projectDescription h3 {
+    font-size: 1.2vw;
+    text-align: center;
+    text-shadow: 2.5px 2.5px 2px #000;
+    width: 100%;
+    color: #D8D8D8;
+}
+.projectDescription p {
+    width: 100%;
+    font-size: 0.8vw;
+    text-shadow: 1px 1px #000;
+    line-height: 1.2vw;
+    color: white;
+    padding: 8%;
+    background-color: rgba(0,0,0,0.85);
+    border: 1px solid rgba(0,0,0,0.95);
+    border-radius: 10px;
+}
+
+.archWhite {color: #FFF;}
+
+.bottomNav.archWhite a {color: #FFF;}
+
+.afterClick {white-space: nowrap;}
+
+/* ============================================================
+Main Content - Photography
+============================================================= */
+.pageBG.photog {
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.1),
+    rgba(0,0,0,0.1)
+    ),
+
+    url("../img/bg/photog.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contentPhotography {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.contentContainer.photogScroll {
+    position: absolute;
+    top: 19.5%;
+    left: 9.5%;
+    width: 80%;
+    height: 105%;
+    overflow: auto;
+}
+
+.contentContainer.photogScroll .box {
+    display: inline-block;
+    box-shadow: 0px 10px 6px -6px #000;
+    margin-right: 2.5%;
+    width: 69.8vh;
+    height: 47vh;
+}
+
+.contentContainer.photogScroll .box:hover {
+    cursor: pointer;
+    box-shadow: 2px 8px 8px 2px #000;
+}
+
+/* ============================================================
+Main Content - About
+============================================================= */
+.pageBG.about {
+    background:
+    linear-gradient(
+    rgba(0,0,0,0),
+    rgba(0,0,0,0)
+    ),
+
+    url("../img//bg/aboutMeBG.jpg");
+    bottom: 10%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+#contentAbout {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#aboutText {
+    position: relative;
+    width: 24%;
+    height: auto;
+    top: 29.5%;
+    left: 4%;
+    font-size: 0.85vw;
+    overflow: auto;
+}
+
+#aboutText p:nth-child(2) {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+#aboutText p:nth-child(2) span {
+    text-decoration: underline;
+}
+
+#contentAbout img {
+    position: absolute;
+    top: 24.5%;
+    right: 4%;
+    width: 30%;
+    box-shadow: 0 10px 6px -6px black;
+}
+
+#contactInfo {
+    position: absolute;
+    bottom: 23%;
+    left: 10%;
+    font-size: 0.8vw;
+    color: #000;
+}
+
+#contactInfo span {text-decoration: underline;}
+
+/* ============================================================
+Menu - Home
+============================================================= */
+.mainMenu {
+    position: relative;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.mainMenu ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mainMenu ul li {
+    display: inline-block;
+    padding: 0% 2%;
+    font-size: 1vw;
+}
+
+/* ============================================================
+Menu - SectionMenu
+============================================================= */
+.sectionMenu {
+    position: fixed;
+    top: 7%;
+    width: 100%;
+}
+
+.selectionNav {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+}
+
+.selectionNav li a {
+    font-size: 0.9vw;
+    color: #FFF;
+}
+
+.outer {
+    display: inline-block;
+    width: 8%;
+    vertical-align: top;
+    margin-right: 5%;
+    padding: 0.3% 0%;
+    font-size: 1vw;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.inner {
+    margin-top: 3%;
+    display: block;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(155,155,155,0.1);
+}
+
+.inner > li {
+    border-top: 1px solid rgba(0,0,0,0.9);
+    width: 100%;
+    margin-top: 5%;
+}
+
+.inner li a {
+    font-size: 0.75vw;
+    color: #FFF;
+}
+
+.inner > li:hover {background-color: #CB3535;}
+
+.inner.hidden {
+    position: absolute;
+    display: none;
+}
+
+/* ============================================================
+Menu - BottomNav
+============================================================= */
+.bottomNav {
+    position: absolute;
+    text-align: center;
+    font-size: 0;
+    width: 100%;
+    margin-top: 1.2%;
+    font-weight: normal;
+}
+
+.bottomNav li {
+    display: inline-block;
+    font-size: 1vw;
+    padding-right: 6.2%;
+    text-align: center;
+}
+
+.bottomNav li:hover {text-shadow: 0.4px 0.6px grey;}
+
+/* ============================================================
+SectionTitle
+============================================================= */
+.sectionTitle {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 25%;
+}
+
+/* ============================================================
+Header/Footer
+============================================================= */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0,0,0,0);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0,0,0,0);
+}
+
+/* ============================================================
+Scroll Buttons
+============================================================= */
+.scrollButton {
+    position: fixed;
+    display: none;
+    top: 45%;
+    background: transparent;
+    border: none;
+    font-size: 0;
+    opacity: 0.9;
+}
+
+.scrollRight {right: 3.5%;}
+
+.scrollLeft {left: 3.5%;}
+
+.scrollRight img {
+    -webkit-animation: pulse 1.5s;
+    animation: pulse 1.5s;
+    -webkit-animation-iteration-count: 20;
+    animation-iteration-count: 20;
+}
+
+@-webkit-keyframes pulse {
+    0% {opacity: 0.55;}
+    100% {opacity: 0.9;}
+}
+
+@keyframes pulse {
+    0% {opacity: 0.55;}
+    100% {opacity: 0.9;}
+}
+
+.backButton {
+    position: absolute;
+    display: none;
+    background: transparent;
+    top: 7.4%;
+    left: 16.2%;
+    border: none;
+    font-size: 0;
+    z-index: 999;
+}
+
+.scrollButtonArch {
+    position: fixed;
+    display: none;
+    top: 47%;
+    opacity: 0.7;
+    background: transparent;
+    border: none;
+    font-size: 0;
+    z-index: 99;
+}
+
+.scrollRightArch {
+    right: 23.5%;
+    -webkit-animation: pulse 1.5s;
+    animation: pulse 1.5s;
+    -webkit-animation-iteration-count: 20;
+    animation-iteration-count: 20;
+}
+
+.scrollLeftArch {left: 14.5%;}
+
+.scaleButtons img {width: 3vw;}
+
+@-webkit-keyframes pulse {
+    0% {opacity: 0.35;}
+    100% {opacity: 0.7;}
+}
+
+@keyframes pulse {
+    0% {opacity: 0.35;}
+    100% {opacity: 0.7;}
+}
+
+/* ============================================================
+ImageZoom
+============================================================= */
+.zoomedImage {
+    top: 0%;
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+}
+
+.centerImage {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.imageZoom {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.minimiseButton {
+    position: absolute;
+    display: none;
+    background: transparent;
+    top: 16.5%;
+    right: 17%;
+    border: none;
+    font-size: 0;
+}
+
+/* ============================================================
+SocialAndTranslateButtons
+============================================================= */
+#socialAndTranslateButtons {
+    position: relative;
+    top: 20%;
+    width: 20%;
+    left: 79%;
+    margin: 0;
+    padding: 0;
+}
+
+.translate {
+    position: absolute;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 0.9vw;
+    left: 60%;
+}
+
+.translate li {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    margin-top: 12%;
+    margin-right: 10%;
+}
+
+.socialButton {
+    position: absolute;
+    width: 30%;
+    left: 55%;
+    padding: 0;
+    margin: 0;
+}
+
+.socialButton li {
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.socialButton li:first-child img {
+    margin-bottom: 11%;
+}
+
+.socialButton li:nth-child(2) img {
+    margin-top: 25%;
+}
+
+.socialButton img {
+    width: 1.6vw;
+}
+
+/* ============================================================
+Credits
+============================================================= */
+.da {
+    position: absolute;
+    right: 1%;
+    font-size: 0.6vw;
+    bottom: 0;
+}
+
+.me {
+    position: absolute;
+    left: 1%;
+    font-size: 0.4vw;
+    bottom: 0;
+}
+
+/* ============================================================
+Animations
+============================================================= */
+.fadeIn {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0.55;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.55;}
+    100% {opacity: 1;}
+}
+
+/* ============================================================
+PageControl
+============================================================= */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+html, body {height: 100%;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+#container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1,
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6vw;
+}
+
+a:visited {color: #000;}
+
+a:link {color: #000;}
+
+.underline {text-decoration: underline;}
+
+button:focus {outline:0;}
+
+#mobileMenuContainer {display: none;}
+
+.pageBG {z-index: -1;}
+
+/* ============================================================
+MediaQueries
+============================================================= */
+@media screen and (max-width: 1199px) {
+    /* ===========
+    Home
+    ============== */
+    .homeTitle {
+        font-size: 3vw;
+    }
+
+    .footer.home {
+        display: none;
+    }
+
+    .contactFront {
+        font-size: 1vw;
+        line-height: 1.3vw;
+    }
+}
+
+@media only screen
+and (max-width: 767px)
+and (orientation: portrait) {
+    /* ===========
+    Buttons
+    ============== */
+    .scrollButton {
+        opacity: 0;
+    }
+
+    #mobileMenuContainer {
+        display: block;
+        position: fixed;
+        width: 15%;
+        bottom: 12%;
+        right: 6%;
+        height: auto;
+    }
+
+    .mobileMenu {
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobileMenu li a {
+        font-size: 10vw;
+        color: #FFF;
+    }
+
+    .mobileButton {
+        border: 3px solid rgba(0,0,0,0.8);
+        box-shadow: 2px 3px 5px #000;
+        background-color: #E02828;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .mobileMenu2.hidden {
+        display: none;
+    }
+
+    .mobileMenu2 {
+        position: absolute;
+        bottom: -65%;
+        right: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        list-style: none;
+    }
+
+    .mobileMenu2 li a {
+        padding: 10%;
+        font-size: 4vw;
+        line-height: 12vw;
+        color: #FFF;
+        background-color: rgba(0,0,0,0.85);
+        font-weight: 900;
+        text-shadow: 1.5px 1.5px #000;
+    }
+
+    .mobileMenu2 li:first-child {
+        position: relative;
+        left: 30%;
+    }
+
+    .mobileMenu2 li:nth-child(2) {
+        position: relative;
+        margin-top: 10%;
+        left: -20%;
+    }
+
+    .mobileMenu2 li:nth-child(3) {
+        position: relative;
+        margin-top: 5%;
+        left: 0%;
+        padding-left: 5%;
+    }
+
+    #socialAndTranslateButtons {
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        top: 95%;
+        height: 5%;
+        left: 0%;
+        width: 100%;
+        z-index: 99;
+    }
+
+    .translate {
+        position: relative;
+        left: 84%;
+        top: 20%;
+        font-size: 3vw;
+        width: 13%;
+        text-align: initial;
+    }
+
+    .translate li {
+        display: inline-block;
+        left: 0%;
+        width: 40%;
+        margin: 0%;
+
+    }
+    .translate li:nth-child(2) {
+        text-align: right;
+    }
+
+    .scaleSocial {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 17.5%;
+        left: 4%;
+        width: 22%;
+    }
+
+    .socialButton {
+        position: relative;
+        left: 0%;
+        width: 100%;
+    }
+    .socialButton li {
+        width: 40%;
+        top: 0%;
+        left: 0%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .socialButton li:first-child img {
+        margin: 0%;
+        width: 6vw;
+    }
+    .socialButton li:nth-child(2) img {
+        margin: 0%;
+    }
+
+    .socialButton img {
+        width: 5vw;
+    }
+
+    /* ===========
+    SectionMenu
+    ============== */
+    .sectionMenu {
+        position: relative;
+        width: 100%;
+        top: 0%;
+        margin: 0;
+        margin-top: 5%;
+        padding: 0;
+    }
+
+    .selectionNav {
+        position: relative;
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        font-size: 0;
+    }
+
+    .selectionNav li a {
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+
+    .outer {
+        display: block;
+        line-height: 6vw;
+        width: 100%;
+        margin: 0%;
+        font-size: 2vw;
+        background-color: #000;
+        border-bottom: 2px solid #2E2E2E;
+    }
+
+    .inner {
+        margin-top: 2%;
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .inner > li {
+        width: 100%;
+        margin-top: 2%;
+        padding: 2%;
+        background-color: #000;
+    }
+
+    .inner > li a {
+        font-size: 3.5vw;
+        font-weight: 300;
+        line-height: 10vw;
+    }
+
+
+    /* ===========
+    Home
+    ============== */
+    #home .mobileMenu2 {
+        display: initial;
+    }
+
+    #home .mobileMenu2 li a {
+        background-color: rgba(0,0,0,0);
+    }
+
+    #home #socialAndTranslateButtons {
+        top: 2%;
+    }
+    .pageBG.homePage {
+        background:
+        linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.9)
+        ),
+        url("../img/arch/sem2/full/pavilion/pavilion02.jpg");
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    #contentHome {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .homeTitle {
+        position: relative;
+        top: 25%;
+        text-shadow: 1.5px 2px 2px #000;
+        margin: 0%;
+        color: #FFF;
+        font-size: 12vw;
+        vertical-align: middle;
+    }
+
+    #contentHome img {
+        display: none;
+    }
+
+    .mainMenu ul li {
+        margin-top: 45%;
+        background-color: rgba(0,0,0,0.90);
+        font-size: 3vw;
+        margin-right: 3%;
+        padding: 3.5%;
+    }
+
+    .contactFront {
+        color: #000;
+        font-size: 2vw;
+        line-height: 3vw;
+        margin-bottom: 15%;
+    }
+
+    .mainMenu {
+        display: none;
+    }
+
+    /* ===========
+    Architecture
+    ============== */
+    .pageBG.arch {
+        display: none;
+    }
+
+    .archGrid {
+        display: none;
+    }
+
+    #contentArchitecture {
+        top: 0%;
+        background-color: #000;
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+    }
+
+    .contentContainer.archGrid {
+        display: none;
+    }
+
+    .contentContainer.archScroll {
+        position: relative;
+        vertical-align: bottom;
+        top: 25% !important;
+        left: 3% !important;
+        width: 100%;
+        height: 45%;
+    }
+
+    .contentContainer.archScroll .box2 {
+        margin-right: 3%;
+        max-width: 80%;
+        max-height: 90%;
+        height: auto;
+    }
+
+    .projectDescription {
+        left: 0%;
+        top: 67%;
+        width: 80%;
+        height: 25%;
+        overflow: auto;
+    }
+    .projectDescription h3 {
+        font-size: 3vw;
+    }
+
+    .projectDescription p {
+        margin-top: -7%;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        text-align: left;
+    }
+
+    .backButton {
+        display: none !important;
+    }
+
+    .scaleButtons {
+        display: none !important;
+    }
+
+    .projects {
+        position: absolute;
+        top: 0% !important;
+        left: 0% !important;
+        width: 100% !important;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        margin-top: 5%;
+        overflow: auto;
+        border-bottom: 1px solid #2E2E2E;
+    }
+
+    .projects ul {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .projects li {
+        position: relative;
+        text-align: center;
+        font-size: 3vw;
+        line-height: 10vw;
+    }
+
+    .projects li:first-child {
+        display: none;
+    }
+
+    .projects a:hover {
+        background-color: #000;
+        font-size: 3vw;
+        padding: 0;
+    }
+    /* ===========
+    Photography
+    ============== */
+    .pageBG.photog {
+        display: none;
+    }
+
+    #contentPhotography {
+        position: relative;
+        background-color: #000;
+        white-space: normal;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        overflow: auto;
+    }
+
+    .contentContainer.photogScroll {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        top: 0%;
+        left: 0%;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    .contentContainer.photogScroll .box {
+        margin-top: 2%;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    /* ===========
+    About
+    ============== */
+    .pageBG.about {
+        display: none;
+    }
+
+    #contentAbout {
+        position: relative;
+        background-color: #000;
+        width: 100%;
+        height: 90%;
+        overflow: auto;
+    }
+
+    .contentContainer.aboutContent {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    #contentAbout img {
+        position: relative;
+        width: 100%;
+        right: 0%;
+        top: 0%;
+        left: 0%;
+    }
+
+    #aboutText {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        padding: 2% 5%;
+        overflow: auto;
+        font-size: 3vw;
+        color: #FFF;
+    }
+
+    #aboutText p:nth-child(2) {
+        padding-top: 5%;
+        text-align: left;
+        font-size: 2.5vw;
+    }
+
+    /* ===========
+    SectionTitle
+    ============== */
+    .sectionTitle {
+        position: relative;
+        padding: 2% 0%;
+        text-align: center;
+        font-size: 5vw;
+        left: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* ===========
+    PageControl
+    ============== */
+    .header {
+        position: relative;
+        top: 0%;
+        background-color: #000;
+        color: #FFF;
+        width: 100%;
+        height: auto;
+    }
+
+    #container {
+        background-color: #000;
+    }
+
+    .footer {
+        position: fixed;
+        height: 5%;
+        bottom: 0;
+        background-color: #000;
+    }
+
+
+    .zoomedImage {
+        top: 0%;
+    }
+
+    .bottomNav {
+        display:none !important;
+    }
+
+    .credits {
+        display : none;
+    }
+}
